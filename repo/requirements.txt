@@ -1,0 +1,14 @@
+# Python 3.11 or newer.
+# The three model libraries are pinned because the shipped .joblib files are pickles; pickles can fail or warn
+# when the library version differs. If you change these, re-run `python train_quick_model.py`.
+scikit-learn==1.8.0
+xgboost==3.4.1
+lightgbm==4.7.0
+
+streamlit>=1.50
+pandas>=2.2
+numpy>=1.26
+scipy>=1.11
+joblib>=1.4
+plotly>=5.24
+shap>=0.46
